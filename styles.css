@@ -1,42 +1,57 @@
 *{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+#logo{
+    margin: 0px;
+    margin-left: -10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
-    background-color: lightblue;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0px 30px;
+    padding: 0px 150px;
 }
 
 .header-links{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .header a, .header li{
     text-decoration: none;
     list-style-type: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .first-box{
     display: flex;
-    padding: 0px 30px;
-    margin: 0px 30px;
+    padding: 20px 150px;
     gap: 5px;
+    background-color: #1F2937;
+    color: white;
 }
 
 .first-box button{
-    background-color: teal;
+    background-color: #3882F6;
     padding: 10px 20px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .sb-heading{
     text-align: center;
+    margin: 15px;
 }
 
 .image-cards{
@@ -44,12 +59,58 @@
     gap: 20px;
     text-align: center;
     justify-content: space-between;
-    padding: 0px 30px;
-    flex-wrap: nowrap;
+    padding: 0px 33%;
 }
 
 .image-cards img{
     min-width: 150px;
+    max-height: 170px;
+    max-width: 75%;
     height: auto;
-    border: blue solid 2px;
+    border: #1F2937 solid 2px;
+}
+
+.third-box{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 50px 270px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #E5E7EB;
+}
+
+#end-quote{
+    align-self: flex-end;
+}
+
+.four-box{
+    background-color: #1F2937;
+    font-size: 15px;
+    display: flex;
+    padding: 0px 50px;
+    align-self: center;
+    color: white;
+    padding: 20px 70px;
+    margin: 30px;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
